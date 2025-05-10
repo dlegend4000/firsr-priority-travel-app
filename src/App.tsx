@@ -143,27 +143,47 @@ function Locations() {
   return (
     <div className="min-h-screen w-full bg-[#191b1d] font-sans text-white flex flex-col items-center py-12 px-4">
       <h1 className="text-4xl font-extrabold mb-8 tracking-tight">LOCATIONS</h1>
-      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-[#292929] rounded shadow p-6">
-          <h2 className="text-xl font-semibold mb-3">Heathrow Airport</h2>
-          <p>Terminal 2, The Hilton Garden Inn, Eastern Perimeter Rd, Hatton, London, TW6 2SB</p>
-          <p className="mt-2 font-semibold">Contact: +44 20 4517 7711</p>
+
+      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Lagos Airport */}
+        <div className="bg-[#292929] rounded shadow overflow-hidden">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/0/03/MMIA_Intl_Terminal_2019.jpg"
+            className="w-full h-40 object-cover"
+          />
+          <div className="p-6">
+            <h2 className="text-xl font-semibold mb-3">
+              Murtala Muhammed International Airport (LOS)
+            </h2>
+            <p>Ikeja, Lagos, Nigeria</p>
+            <p className="mt-2 font-semibold">Contact: +234 901 234 5678</p>
+          </div>
         </div>
-        <div className="bg-[#292929] rounded shadow p-6">
-          <h2 className="text-xl font-semibold mb-3">Gatwick Airport</h2>
-          <p>North Terminal, Gatwick Rd, Horley, Surrey, RH6 0NP</p>
-          <p className="mt-2 font-semibold">Contact: +44 1293 123456</p>
-        </div>
-        <div className="bg-[#292929] rounded shadow p-6">
-          <h2 className="text-xl font-semibold mb-3">Manchester Airport</h2>
-          <p>Terminal 1, Manchester M90 1QX</p>
-          <p className="mt-2 font-semibold">Contact: +44 161 987 6543</p>
+
+        {/* Abuja Airport */}
+        <div className="bg-[#292929] rounded shadow overflow-hidden">
+          <img
+            src="https://airmundo.com/wp-content/uploads/2018/07/Abuja-Nnamdi-Azikiwe-Airport.jpg"
+            alt="Nnamdi Azikiwe International Airport"
+            className="w-full h-40 object-cover"
+          />
+          <div className="p-6">
+            <h2 className="text-xl font-semibold mb-3">
+              Nnamdi Azikiwe International Airport (ABV)
+            </h2>
+            <p>Abuja, Nigeria</p>
+            <p className="mt-2 font-semibold">Contact: +234 901 234 5679</p>
+          </div>
         </div>
       </div>
+
+      {/* Additional Information */}
       <section className="w-full max-w-5xl mt-12 bg-[#232323] rounded p-6 text-[#bfb1ac]">
         <h3 className="text-2xl font-bold mb-4">Additional Information</h3>
         <p>
-          Our VIP Airport Concierge Services are available at multiple airports across the UK. Contact us to find out more or to arrange a personalized service.
+          First Priority currently operates exclusively from Murtala Muhammed International Airport in Lagos
+          and Nnamdi Azikiwe International Airport in Abuja. Our vision is to expand to every major airport
+          across Nigeria, delivering premium, stress-free travel assistance wherever you go.
         </p>
       </section>
     </div>
