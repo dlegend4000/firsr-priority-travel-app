@@ -72,15 +72,15 @@ function Home() {
         {/* VIP Services Cards */}
         <section className="w-full max-w-5xl flex flex-col md:flex-row gap-4 mb-12">
           <div className="flex-1 min-w-[170px] bg-[#4b3b3a] rounded shadow overflow-hidden h-40 flex items-end relative">
-            <img src="https://res-console.cloudinary.com/dl5yojeac/thumbnails/v1/image/upload/v1746881364/cGhvbnRvXzdfYWo5cGdr/drilldown" alt="VIP Meet & Assist" className="absolute inset-0 w-full h-full object-cover opacity-60" />
+            <img src="https://res.cloudinary.com/dl5yojeac/image/upload/v1746881364/phonto_7_aj9pgk.jpg" alt="VIP Meet & Assist" className="absolute inset-0 w-full h-full object-cover opacity-60" />
             <div className="relative p-4 w-full text-white font-bold text-lg z-10">VIP MEET & ASSIST</div>
           </div>
           <div className="flex-1 min-w-[170px] bg-[#334866] rounded shadow overflow-hidden h-40 flex items-end relative">
-            <img src="https://res-console.cloudinary.com/dl5yojeac/thumbnails/v1/image/upload/v1746881193/cGhvbnRvXzZfaXFvZGVh/drilldown" alt="Chauffeur" className="absolute inset-0 w-full h-full object-cover opacity-30" />
+            <img src="https://res.cloudinary.com/dl5yojeac/image/upload/v1746881193/phonto_6_iqodea.jpg" alt="Chauffeur" className="absolute inset-0 w-full h-full object-cover opacity-30" />
             <div className="relative p-4 w-full text-white font-bold text-lg z-10">CHAUFFEUR</div>
           </div>
           <div className="flex-1 min-w-[170px] bg-[#42626d] rounded shadow overflow-hidden h-40 flex items-end relative">
-            <img src="https://res-console.cloudinary.com/dl5yojeac/thumbnails/v1/image/upload/v1746881368/cGhvbnRvXzhfdWFldHl5/drilldown" alt="Private Suite" className="absolute inset-0 w-full h-full object-cover opacity-30" />
+            <img src="https://res.cloudinary.com/dl5yojeac/image/upload/v1746881368/phonto_8_uaetyy.jpg" alt="Private Suite" className="absolute inset-0 w-full h-full object-cover opacity-30" />
             <div className="relative p-4 w-full text-white font-bold text-lg z-10">PRIVATE SUITE</div>
           </div>
         </section>
