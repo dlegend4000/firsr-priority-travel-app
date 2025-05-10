@@ -3,13 +3,13 @@ import { Routes, Route, Link, useLocation } from "react-router-dom";
 import BookingForm from "./BookingForm";
 
 const HERO_BG = "https://ext.same-assets.com/250329750/3237512107.jpeg"; // Main hero background image
-const LOGO = "https://ext.same-assets.com/250329750/1277719691.png";
+const LOGO = "https://res.cloudinary.com/dl5yojeac/image/upload/v1746879692/5ddb8fe6-9d38-4b7b-8438-2e3a1cf237e3_vdeo5n.png";
 
 function Navbar() {
   return (
     <nav className="absolute top-0 left-0 w-full z-20 px-8 py-4 flex justify-between items-center bg-transparent text-white">
       <div className="flex items-center gap-8">
-        <img src={LOGO} alt="Airport Assist Logo" className="h-10" />
+        <img src={LOGO} alt="Airport Assist Logo" className="h-20" />
         <ul className="hidden md:flex gap-7 text-sm tracking-wide">
           <li><Link className="hover:text-[#bfb1ac] cursor-pointer" to="/">HOME</Link></li>
           <li><Link className="hover:text-[#bfb1ac] cursor-pointer" to="/locations">LOCATIONS</Link></li>
