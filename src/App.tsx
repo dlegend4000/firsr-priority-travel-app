@@ -232,9 +232,14 @@ function Footer() {
 }
 
 function Layout() {
+  const location = useLocation();
+  const isBookingPage = location.pathname === "/book";
   return (
-    <>
-      <Navbar />
+    <div className="min-h-screen w-full bg-[#191b1d] font-sans">
+      {/* Navbar visible only on md+ screens when on /book */}
+      <div className={`${isBookingPage ? "hidden md:block" : ""}`}>
+        <Navbar />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/locations" element={<Locations />} />
@@ -242,7 +247,7 @@ function Layout() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 
