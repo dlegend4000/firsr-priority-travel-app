@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Lato', 'Open Sans', Arial, Helvetica, sans-serif;
+  background: #191b1d;
+  color: #ffffff;
+}
+
+/* Button styles for shadow and effect matching site */
+.button-main, .border {
+  box-shadow: 0 0 0 1.5px rgba(191,177,172,0.5), 0 2px 6px 0 rgba(0,0,0,0.27);
+}
+.button-main:hover {
+  filter: brightness(0.92);
+}
+
+.section-card, .package-card {
+  box-shadow: 0 2px 22px 0 rgba(0,0,0,0.18);
+  border-radius: 12px;
+}
+
+@layer base {
+  :root {
+    --aa-background: #191b1d;
+    --aa-accent: #bfb1ac;
+    --aa-muted: #705d5c;
+    --aa-vip: #599f9b;
+    --aa-link: #bfb1ac;
+    --aa-box-bg: #232323;
+    --aa-service-bg1: #4b3b3a;
+    --aa-service-bg2: #334866;
+    --aa-service-bg3: #42626d;
+    --aa-font-main: 'Lato', 'Open Sans', Arial, Helvetica, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-[#191b1d] text-white;
+  }
+}
