@@ -25,7 +25,6 @@ function Navbar() {
           BOOK NOW
         </Link>
         <a className="hover:text-[#bfb1ac] cursor-pointer hidden md:inline" href="mailto:meet@airport-assist.com">CONTACT US</a>
-        <svg width="24" height="24" className="text-white ml-4 opacity-80 cursor-pointer" fill="none" viewBox="0 0 24 24"><path fill="currentColor" d="M6 22a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h3.763a2 2 0 0 1 1.414.586l7.237 7.236A2 2 0 0 1 20 13.236V20a2 2 0 0 1-2 2H6Zm2-10a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"/></svg>
       </div>
     </nav>
   );
