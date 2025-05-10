@@ -38,9 +38,9 @@ function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full pt-20 md:pt-28">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-center tracking-tight">FIRST PRIORITY</h1>
-          <h2 className="text-xl md:text-2xl font-bold mb-8 text-center">VIP FAST TRACK & MEET AND GREET SERVICES</h2>
+          <h2 className="text-xl md:text-2xl font-bold mb-8 text-center">ELITE FAST TRACK & PERSONALIZED SERVICES</h2>
           <p className="text-base md:text-lg font-medium text-center max-w-2xl mb-6">
-            A UNIQUE AND LUXURIOUS SERVICE – OFFERING A SEAMLESS AND MEMORABLE JOURNEY THROUGH AIRPORTS. PRIVATE, PERSONAL AND EXCLUSIVE; THIS IS THE ULTIMATE AIRPORT EXPERIENCE.
+          AN EXCEPTIONAL AND PREMIUM SERVICE — DESIGNED TO DELIVER A SMOOTH, UNFORGETTABLE AIRPORT JOURNEY. DISCREET, PERSONALIZED, AND RESERVED FOR THOSE WHO EXPECT THE VERY BEST. THIS IS LUXURY TRAVEL REDEFINED.
           </p>
           <Link
             to="/book"
@@ -61,14 +61,11 @@ function Home() {
       <main className="w-full bg-[#292929] flex flex-col items-center justify-center px-2 pb-12">
         {/* Concierge header */}
         <section className="w-full max-w-5xl py-10">
-          <h2 className="text-center text-2xl md:text-3xl font-extrabold mb-3 text-white tracking-tight">VIP AIRPORT CONCIERGE SERVICES</h2>
+          <h2 className="text-center text-2xl md:text-3xl font-extrabold mb-3 text-white tracking-tight">PREMIUM AIRPORT CONCIERGE SERVICES</h2>
           <p className="text-center max-w-3xl mx-auto text-base md:text-lg mb-6 text-[#bfb1ac]">
-            Airport VIP Meet & Assist service is expertly designed to assist passengers in avoiding long lines,
-            overcoming language barriers, and navigating the airport with confidence and ease.<br/>
-            Our experienced agents offer comprehensive assistance with airport formalities such as security, immigration, baggage collection, and drop-off.<br/>
-            This top-tier service is available to all passengers, irrespective of their airline or ticket class. We cater
-            to a diverse range of passengers, including families, tourists, VIPs, and corporate customers, and have
-            successfully helped thousands of travellers navigate the airport with comfort and confidence.
+          Our Airport VIP Meet & Assist service is meticulously crafted to help travelers skip long lines, overcome language barriers, and move through the airport with ease and confidence.<br/>
+          Our dedicated agents provide end-to-end support for all essential formalities — including security, immigration, baggage handling, and drop-off.
+          This premium service is available to all passengers, regardless of airline or ticket class. We proudly serve families, tourists, VIPs, and corporate clients — ensuring a smooth, stress-free airport experience for everyone.
           </p>
         </section>
 
