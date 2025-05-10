@@ -38,7 +38,7 @@ function Home() {
       <header style={{backgroundImage:`url('${HERO_BG}')`}} className="relative w-full h-[70vh] min-h-[460px] bg-cover bg-no-repeat bg-center flex flex-col justify-center items-center text-white shadow-inner">
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full pt-20 md:pt-28">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-center tracking-tight">AIRPORT ASSIST</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-center tracking-tight">FIRST PRIORITY</h1>
           <h2 className="text-xl md:text-2xl font-bold mb-8 text-center">VIP FAST TRACK & MEET AND GREET SERVICES</h2>
           <p className="text-base md:text-lg font-medium text-center max-w-2xl mb-6">
             A UNIQUE AND LUXURIOUS SERVICE – OFFERING A SEAMLESS AND MEMORABLE JOURNEY THROUGH AIRPORTS. PRIVATE, PERSONAL AND EXCLUSIVE; THIS IS THE ULTIMATE AIRPORT EXPERIENCE.
@@ -216,16 +216,16 @@ function Footer() {
           </div>
         </div>
         <div className="flex-1 flex flex-col md:items-end items-center">
-          <a className="hover:underline" href="mailto:meet@airport-assist.com">meet@airport-assist.com</a>
-          <a className="hover:underline" href="tel:+442045177711">+44 20 4517 7711</a>
-          <span className="block mt-2 max-w-xs text-center md:text-right">Heathrow Airport, The Hilton Garden Inn, Eastern Perimeter Rd, Hatton, London, TW6 2SB</span>
+          <a className="hover:underline" href="mailto:meet@airport-assist.com">meet@first-priority.com</a>
+          <a className="hover:underline" href="tel:+442045177711">+12 345 6789</a>
+          <span className="block mt-2 max-w-xs text-center md:text-right">Murtala Muhammed International Airport (MMI), Nnamdi Azikiwe International Airport (NAIA)</span>
         </div>
       </div>
       <div className="w-full border-t border-[#bfb1ac]/10 mt-8 pt-4 flex flex-col items-center gap-2">
         <div className="flex w-full max-w-5xl justify-between text-xs text-[#bfb1ac]">
           <a className="hover:underline" href="/privacy-policy">Privacy Policy</a>
-          <span>© 2023 TRAVEL ASSISTANCE, UK | AIRPORT ASSIST</span>
-          <span>Web design by Square Socket</span>
+          <span>© 2025 TRAVEL ASSISTANCE, NIGERIA | FIRST PRIORITY</span>
+          <span>Web design by Emmanuel Karibiye</span>
         </div>
       </div>
     </footer>
